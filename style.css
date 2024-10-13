@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0cm;
+    padding: 2px;
+    background: hsl(0, 6%, 72%);
+}
+
+:root { --primary-color: #0a0707;}
+
+.logo{ text-align:center;
+opacity: 10;
+border: #0a0707;
+border-radius: 45px;
+background-color: rgb(147, 142, 142);
+border-style: solid;
+   
+}
+body { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS' ;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #89a4a4;
+}
+a {
+    text-decoration:aqua;
+    color: rgb(67, 118, 20);
+}
+
+.list{padding: 30px;}
+
+ul{
+    list-style-type:none;
+    color: #060202;
+    border-radius: 45px;
+    border: 10px;
+    width: auto;
+}
+img {
+    height:100px; 
+    width: 700px;
+    position:static;
+    border: #0a0707;
+  
+
+}
+/* utiliy class*/
+.navbar {
+   
+    inline-size:auto;
+    background-image: url(images/images.jpeg);
+    background-position:left;
+    background-size:contain;
+    padding: 10px;
+    margin:20px 20px ;
+    display: flex;
+}
+.navbar .container {
+    display:grid;
+    justify-content:right ;
+    align-items:center;
+    
+}
+.container {
+    max-width:auto;
+    margin: auto;
+    padding: left 10px;
+ }
+ .container-sm {
+    max-width: auto;
+    margin: 0 auto;
+    padding: auto;
+ }
+.navbar .main-menu ul {
+    display: flex;
+    
+}
+.navbar ul li a {
+    width: fit-content;;
+    background-color: rgb(10, 8, 5);
+    opacity: 0.9;
+    padding: 10px 20px;
+    transition: 2s;
+    margin:inherit;
+    border-radius: 40px;
+}
+.hero-heading {
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+    position: sticky;
+    transition:none;
+    font-weight: 10px;
+    color: aliceblue;}
+.navbar ul li a:hover { color: var( --primary-color
+    );
+
+}
+
+.hero-text{position: relative;
+text-align:center;
+font-family: fantasy;
+font-size: small;}
+
+/*hero*/
+.hero-buttons{ max-width:auto;inline-size:auto; center; border-radius: 40px;color: rgb(255, 234, 0);margin-top: 30px;}
+.btn-primary{height: 20px; width: 80px; padding:2px; width:40px; background: #000;text-align: center;border-radius: 50px;}
+
+.btn-secnd{height: 20px; width: 40px; padding-left:40px; background: #000;text-align:center ; border-radius:  50px;
+}   
